@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=Vibur");
+* {
+    margin: 0 auto;
+}
+
+body {
+    background-color: #F2EFEC;
+}
+
+.main-wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+#title {
+    width: 800px;
+    height: 50px;
+}
+
+#title span {
+    width: inherit;
+    height: inherit;
+    font-size: 40px;
+    font-family: "Vibur", cursive;
+    color: #BB1919;
+}
+
+#input {
+    width: 800px;
+    height: 30px;
+    margin-top: 30px;
+}
+
+input {
+    width: 796px;
+    height: 30px;
+    font-size: 20px;
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+input:focus {
+    outline: 0;
+}
+
+#canvas {
+    width: 794px;
+    height: 494px;
+    background-color: #FFFFFF;
+    border: 3px solid #BB1919;
+    margin-top: 15px;
+    cursor: pointer;
+}
