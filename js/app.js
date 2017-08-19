@@ -8,19 +8,19 @@ document.addEventListener("DOMContentLoaded", function() {
         var input = document.getElementsByTagName("input")[0],
             input_text = input.value;
 
-        //Input contains text
+        //input contains text
         if (!!input_text) {
 
             var input_del = input_text.replace(input_text.charAt(0), "");
 
             input.value = input_del;
 
-            //Get mouse coordinates
+            //get mouse coordinates
             var mouseX = e.clientX - ctx.canvas.offsetLeft,
                 mouseY = e.clientY - ctx.canvas.offsetTop,
                 input_len = input_text.length;
 
-            //Draw letter
+            //draw letter
             ctx.font = "35pt Vibur";
             ctx.fillStyle = "#BB1919";
             ctx.textAlign = "center";
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     document.getElementById("image-wrapper").addEventListener("click", function(e) {
-        //Clear canvas
+        //clear canvas
         ctx.clearRect(0, 0, canvas.width, canvas.height);
     });
 });
