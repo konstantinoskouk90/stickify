@@ -1,6 +1,6 @@
 <h1>#stickify</h1>
 
-<h4>JavaScript app built using VanillaJS</h4>
+<h4>javaScript app built using VanillaJS</h4>
 
 <h2>Features</h2>
 
